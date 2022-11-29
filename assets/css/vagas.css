@@ -1,0 +1,35 @@
+.vagas {
+    margin: 0 auto;
+    width: 768px
+}
+
+.vagas__titulo {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.vagas__container {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px 24px 28px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.vagas__nome {
+    font-size: 18px;
+}
+
+.vagas__informacoes {
+    margin-top: 40px;
+}
+
+.vagas__tipo {
+    margin-right: 10px;
+}
+
+.vagas__tipo,
+.vagas__salario {
+    color: var(--text-color);
+}

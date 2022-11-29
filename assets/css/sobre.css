@@ -1,0 +1,26 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0 90px 0;
+}
+
+.sobre__span {
+    color: var(--main-color);
+    /* margin-top: 80px; */
+}
+
+.sobre__titulo {
+    font-weight: 600;
+    font-size: 48px;
+    margin: 40px 0 40px 0;
+}
+
+.sobre__paragrafo {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    text-align: center;
+    width: 791px;
+    line-height: 30px;
+}

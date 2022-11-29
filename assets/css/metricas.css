@@ -1,0 +1,24 @@
+.metricas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 40px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.metricas__card {}
+
+.metricas__card__span {
+    font-size: 60px;
+    color: var(--main-color);
+}
+
+.metricas__card__titulo {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+
+.metricas__card__paragrafo {
+    color: var(--text-color);
+    line-height: 24px;
+}
